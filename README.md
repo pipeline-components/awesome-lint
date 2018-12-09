@@ -1,4 +1,4 @@
-# Pipeline Components: _Template_
+# Pipeline Components: awesome-lint
 
 ![Project Stage][project-stage-shield]
 ![Project Maintenance][maintenance-shield]
@@ -14,16 +14,16 @@
 
 ## Usage
 
-The image is for running _template_, _template_ is installed in /app/ in case you need to customize the install before usage. The image is based on alpine:3.8
+The image is for running awesome-lint, awesome-lint is installed in /app/ in case you need to customize the install before usage. The image is based on alpine:3.8
 
 ## Examples
 
 ```yaml
-_template_:
+awesome-lint:
   stage: linting
-  image: pipelinecomponents/_template_:latest
+  image: pipelinecomponents/awesome-lint:latest
   script:
-    - _template_ .
+    - awesome-lint .
 ```
 
 ## Versioning
@@ -82,24 +82,24 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[commits]: https://gitlab.com/pipeline-components/_template_/commits/master
-[contributors]: https://gitlab.com/pipeline-components/_template_/graphs/master
-[dockerhub]: https://hub.docker.com/r/pipelinecomponents/_template_
+[commits]: https://gitlab.com/pipeline-components/awesome-lint/commits/master
+[contributors]: https://gitlab.com/pipeline-components/awesome-lint/graphs/master
+[dockerhub]: https://hub.docker.com/r/pipelinecomponents/awesome-lint
 [license-shield]: https://img.shields.io/badge/License-MIT-green.svg
 [mjrider]: https://gitlab.com/mjrider
-[gitlabci-shield]: https://img.shields.io/gitlab/pipeline/pipeline-components/_template_.svg
-[gitlabci]: https://gitlab.com/pipeline-components/_template_/commits/master
-[issue]: https://gitlab.com/pipeline-components/_template_/issues
+[gitlabci-shield]: https://img.shields.io/gitlab/pipeline/pipeline-components/awesome-lint.svg
+[gitlabci]: https://gitlab.com/pipeline-components/awesome-lint/commits/master
+[issue]: https://gitlab.com/pipeline-components/awesome-lint/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
-[layers-shield]: https://images.microbadger.com/badges/image/pipelinecomponents/_template_.svg
+[layers-shield]: https://images.microbadger.com/badges/image/pipelinecomponents/awesome-lint.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
-[microbadger]: https://microbadger.com/images/pipelinecomponents/_template_
+[microbadger]: https://microbadger.com/images/pipelinecomponents/awesome-lint
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[pulls-shield]: https://img.shields.io/docker/pulls/pipelinecomponents/_template_.svg
-[releases]: https://gitlab.com/pipeline-components/_template_/tags
-[repository]: https://gitlab.com/pipeline-components/_template_
+[pulls-shield]: https://img.shields.io/docker/pulls/pipelinecomponents/awesome-lint.svg
+[releases]: https://gitlab.com/pipeline-components/awesome-lint/tags
+[repository]: https://gitlab.com/pipeline-components/awesome-lint
 [semver]: http://semver.org/spec/v2.0.0.html
-[version-shield]: https://images.microbadger.com/badges/version/pipelinecomponents/_template_.svg
+[version-shield]: https://images.microbadger.com/badges/version/pipelinecomponents/awesome-lint.svg
 
 [frenck]: https://github.com/frenck
 [hassio-addons]: https://github.com/hassio-addons
