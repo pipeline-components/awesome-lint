@@ -9,6 +9,7 @@ COPY app /app/
 ENV PATH "$PATH:/app/node_modules/.bin/"
 RUN yarn install --frozen-lockfile && yarn cache clean
 
+WORKDIR /code/
 # Build arguments
 ARG BUILD_DATE
 ARG BUILD_REF
