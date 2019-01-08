@@ -129,7 +129,7 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-awesome-lint@^0.8.0:
+awesome-lint@0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/awesome-lint/-/awesome-lint-0.8.0.tgz#87e87633cb26e3921e6977576d784efd4f43bbe6"
   integrity sha512-DP0W8cXaOczxg4OxnDOa61hhJPBddyq4jbAi8aPPwi61LPBQ9pbHebIoI9c6KvGvzNDE6cPikTQZHVl2PvJT+g==
