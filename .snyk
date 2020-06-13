@@ -1,9 +1,9 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.13.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
-  SNYK-JS-YARGSPARSER-560381:
-    - awesome-lint > meow > yargs-parser:
-        reason: № update available
-        expires: '2021-05-29T09:11:25.050Z'
+  SNYK-JS-URLREGEX-569472:
+    - awesome-lint > is-url-superb > url-regex:
+        reason: No update available
+        expires: '2020-07-13T07:02:59.734Z'
 patch: {}
