@@ -5,5 +5,4 @@ ignore:
   SNYK-JS-URLREGEX-569472:
     - awesome-lint > is-url-superb > url-regex:
         reason: No update available
-        expires: '2020-07-13T07:02:59.734Z'
 patch: {}
