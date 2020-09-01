@@ -183,10 +183,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-awesome-lint@0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/awesome-lint/-/awesome-lint-0.14.0.tgz#f0450234cffeb8295d18e18c1804b6a687e7114a"
-  integrity sha512-x3Q2fVl+9RsjNrxHuocEJK23LxL5l5VVMfujk+ZYCxDc+Ma5C9qdga9KFk9HDy6dSVEKc5xqeQxREeHQtNk8bA==
+awesome-lint@0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/awesome-lint/-/awesome-lint-0.15.0.tgz#e0b8a42f9b5625d0a5594c47769dd9c4fc9d2fd3"
+  integrity sha512-3bvSxtwzjFAz1g8ZbGr/IdPJ/hYtjM/BxREiP/VcHWiiqyO/NEAUku0gDpX38bJVbCFEg3zfnbaYQMfq4TiqtQ==
   dependencies:
     arrify "^2.0.1"
     case "^1.5.5"
@@ -213,6 +213,7 @@ awesome-lint@0.14.0:
     remark-lint-code-block-style "^2.0.0"
     remark-lint-definition-case "^2.0.0"
     remark-lint-definition-spacing "^2.0.0"
+    remark-lint-double-link "^0.1.0"
     remark-lint-emphasis-marker "^2.0.0"
     remark-lint-fenced-code-marker "^2.0.0"
     remark-lint-file-extension "^1.0.2"
@@ -1464,6 +1465,11 @@ normalize-url@^4.1.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.0.tgz#453354087e6ca96957bd8f5baf753f5982142129"
   integrity sha512-2s47yzUxdexf1OhyRi4Em83iQk0aPvwTddtFz4hnSSw9dCEsLEGf6SwIO8ss/19S9iBb5sJaOuTvTGDeZI00BQ==
 
+normalize-url@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-5.1.0.tgz#04b8f1b34ea49ff713fc20b2218eba41fb9974a3"
+  integrity sha512-UxHuSWsSAmzSqN+DSjasaZWQ3QPtEisHdlr4y9MJ5zg0RcImv5fQt8QM0izJSCdsdmhJGK+ubcTpJXwVDmwSVQ==
+
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
@@ -1780,6 +1786,13 @@ remark-lint-definition-spacing@^2.0.0:
     unist-util-generated "^1.1.0"
     unist-util-position "^3.0.0"
     unist-util-visit "^2.0.0"
+
+remark-lint-double-link@^0.1.0:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/remark-lint-double-link/-/remark-lint-double-link-0.1.2.tgz#ec411c9db4e393ffa35280834821ca34f6514b61"
+  integrity sha512-ssBM5vpx//itMJh22vLoE9hk6EhsEZ7gv9Mqw92im0Uhqz8aaIhD4eGVwQCgvBQWvzU9pCI4MaNm6xRoMkWqZA==
+  dependencies:
+    normalize-url "^5.1.0"
 
 remark-lint-emphasis-marker@^2.0.0:
   version "2.0.1"
