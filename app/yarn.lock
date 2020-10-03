@@ -183,10 +183,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-awesome-lint@0.15.1:
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/awesome-lint/-/awesome-lint-0.15.1.tgz#011ed0693e73af9fe39ade1b6d627bd7fb3852d7"
-  integrity sha512-zOUeGfqTHo8yowJbc+y0miREqDXfnG1529ocvN2OD4AcRy5uKDPRMitmRTR3+aYTbHSdbI9fhKfbseoPO2uoyA==
+awesome-lint@0.15.2:
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/awesome-lint/-/awesome-lint-0.15.2.tgz#8ecc59f1890ca463467f61a24833d9dee16a9a78"
+  integrity sha512-RWEc63iDc3zNBHKdu8FHE/iUUI9KowIHOys7JWyAaar4sndm3ALmMikjRuH3qCGNXSJAaiV53H3K9742a3OxIA==
   dependencies:
     arrify "^2.0.1"
     case "^1.5.5"
@@ -198,7 +198,7 @@ awesome-lint@0.15.1:
     globby "^9.0.0"
     got "^9.6.0"
     is-github-url "^1.2.2"
-    is-url-superb "^3.0.0"
+    is-url-superb "^4.0.0"
     mdast-util-to-string "^1.0.4"
     meow "^7.0.1"
     ora "^4.0.4"
@@ -959,11 +959,6 @@ inspect-with-kind@^1.0.4:
   dependencies:
     kind-of "^6.0.2"
 
-ip-regex@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-4.1.0.tgz#5ad62f685a14edb421abebc2fff8db94df67b455"
-  integrity sha512-pKnZpbgCTfH/1NLIlOduP/V+WRXzC2MOz3Qo8xmxk8C5GudJLgK5QyLVXOSWy3ParAH7Eemurl3xjv/WXYFvMA==
-
 irregular-plurals@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/irregular-plurals/-/irregular-plurals-2.0.0.tgz#39d40f05b00f656d0b7fa471230dd3b714af2872"
@@ -1138,12 +1133,10 @@ is-stream@^2.0.0:
   resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-2.0.0.tgz#bde9c32680d6fae04129d6ac9d921ce7815f78e3"
   integrity sha512-XCoy+WlUr7d1+Z8GgSuXmpuUFC9fOhRXglJMx+dwLKTkL44Cjd4W1Z5P+BQZpr+cR93aGP4S/s7Ftw6Nd/kiEw==
 
-is-url-superb@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/is-url-superb/-/is-url-superb-3.0.0.tgz#b9a1da878a1ac73659047d1e6f4ef22c209d3e25"
-  integrity sha512-3faQP+wHCGDQT1qReM5zCPx2mxoal6DzbzquFlCYJLWyy4WPTved33ea2xFbX37z4NoriEwZGIYhFtx8RUB5wQ==
-  dependencies:
-    url-regex "^5.0.0"
+is-url-superb@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/is-url-superb/-/is-url-superb-4.0.0.tgz#b54d1d2499bb16792748ac967aa3ecb41a33a8c2"
+  integrity sha512-GI+WjezhPPcbM+tqE9LnmsY5qqjwHzTvjJ36wxYX5ujNXefSUJ/T17r5bqDV8yLhcgB59KTPNOc9O9cmHTPWsA==
 
 is-url@^1.1.0:
   version "1.2.4"
@@ -2577,11 +2570,6 @@ tempy@^0.5.0:
     type-fest "^0.12.0"
     unique-string "^2.0.0"
 
-tlds@^1.203.0:
-  version "1.209.0"
-  resolved "https://registry.yarnpkg.com/tlds/-/tlds-1.209.0.tgz#13cfdc039331d49730ca7bfa9526fc9b319e2cec"
-  integrity sha512-KVsZ1NSpBodpo42/JIwTyau7SqUxV/qQMp2epSDPa99885LpHWLaVCCt8CWzGe4X5YIVNr+b6bUys9e9eEb5OA==
-
 to-object-path@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/to-object-path/-/to-object-path-0.3.0.tgz#297588b7b0e7e0ac08e04e672f85c1f4999e17af"
@@ -2865,14 +2853,6 @@ url-parse-lax@^3.0.0:
   integrity sha1-FrXK/Afb42dsGxmZF3gj1lA6yww=
   dependencies:
     prepend-http "^2.0.0"
-
-url-regex@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/url-regex/-/url-regex-5.0.0.tgz#8f5456ab83d898d18b2f91753a702649b873273a"
-  integrity sha512-O08GjTiAFNsSlrUWfqF1jH0H1W3m35ZyadHrGv5krdnmPPoxP27oDTqux/579PtaroiSGm5yma6KT1mHFH6Y/g==
-  dependencies:
-    ip-regex "^4.1.0"
-    tlds "^1.203.0"
 
 use@^3.1.0:
   version "3.1.1"
