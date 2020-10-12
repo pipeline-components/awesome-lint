@@ -183,10 +183,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-awesome-lint@0.15.2:
-  version "0.15.2"
-  resolved "https://registry.yarnpkg.com/awesome-lint/-/awesome-lint-0.15.2.tgz#8ecc59f1890ca463467f61a24833d9dee16a9a78"
-  integrity sha512-RWEc63iDc3zNBHKdu8FHE/iUUI9KowIHOys7JWyAaar4sndm3ALmMikjRuH3qCGNXSJAaiV53H3K9742a3OxIA==
+awesome-lint@0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/awesome-lint/-/awesome-lint-0.16.0.tgz#160189497e23b80305caaa773d009d7c5e5db5cc"
+  integrity sha512-zkwXscfOhSoaE3sApCJpHLKR7xXZzm2D2L2s/UOaJszyoKZ/pxz76X0H5YQ1vJV7hvOwhY+pJXbclB3/hU7MPg==
   dependencies:
     arrify "^2.0.1"
     case "^1.5.5"
