@@ -1,8 +1,19 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.1
+version: v1.14.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   SNYK-JS-URLREGEX-569472:
     - awesome-lint > is-url-superb > url-regex:
+        reason: No update available
+  SNYK-JS-CACHEBASE-1054631:
+    - awesome-lint > globby > fast-glob > micromatch > snapdragon > base > cache-base:
+        reason: No update available
+    - awesome-lint > globby > fast-glob > micromatch > braces > snapdragon > base > cache-base:
+        reason: No update available
+    - awesome-lint > globby > fast-glob > micromatch > extglob > snapdragon > base > cache-base:
+        reason: No update available
+    - awesome-lint > globby > fast-glob > micromatch > nanomatch > snapdragon > base > cache-base:
+        reason: No update available
+    - awesome-lint > globby > fast-glob > micromatch > extglob > expand-brackets > snapdragon > base > cache-base:
         reason: No update available
 patch: {}
