@@ -21,7 +21,7 @@ The image is for running awesome-lint, awesome-lint is installed in /app/ in cas
 ```yaml
 awesome-lint:
   stage: linting
-  image: pipelinecomponents/awesome-lint:latest
+  image: registry.gitlab.com/pipeline-components/awesome-lint:latest
   script:
     - awesome-lint .
 ```
