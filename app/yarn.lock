@@ -785,9 +785,9 @@ inspect-with-kind@^1.0.4:
     kind-of "^6.0.2"
 
 irregular-plurals@^3.2.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/irregular-plurals/-/irregular-plurals-3.4.0.tgz#4be22a18af7c428e6480163d0de555e343b876db"
-  integrity sha512-YXxECO/W6N9aMBVKMKKZ8TXESgq7EFrp3emCGGUcrYY1cgJIeZjoB75MTu8qi+NAKntS9NwPU8VdcQ3r6E6aWQ==
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/irregular-plurals/-/irregular-plurals-3.4.1.tgz#1ef8a7200db56ee79323c0b26e11620c553fd1a5"
+  integrity sha512-JR7VL+1Kd9z79bE+2uSgifpzrTwLWmTvyeUewhxZCHVtpPImAsLk4adfRxg86uvdsJ8etYYrpzN7vRT30gGnOA==
 
 is-alphabetical@^1.0.0:
   version "1.0.4"
