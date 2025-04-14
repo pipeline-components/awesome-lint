@@ -665,10 +665,10 @@ ignore@^7.0.3:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.3.tgz#397ef9315dfe0595671eefe8b633fec6943ab733"
   integrity sha512-bAH5jbK/F3T3Jls4I0SO1hmPR0dKU0a7+SY6n1yzRtG54FLO8d6w/nxLFX2Nb7dBu6cCWXPaAME6cYqFUMmuCA==
 
-index-to-position@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/index-to-position/-/index-to-position-1.0.0.tgz#baca236eb6e8c2b750b9225313c31751f84ef357"
-  integrity sha512-sCO7uaLVhRJ25vz1o8s9IFM3nVS4DkuQnyjMwiQPKvQuBYBDmb8H7zx8ki7nVh4HJQOdVWebyvLE0qt+clruxA==
+index-to-position@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/index-to-position/-/index-to-position-1.1.0.tgz#2e50bd54c8040bdd6d9b3d95ec2a8fedf86b4d44"
+  integrity sha512-XPdx9Dq4t9Qk1mTMbWONJqU7boCoumEH7fRET37HX5+khDUl3J2W6PdALxhILYlIYx2amlwYcRPp28p0tSiojg==
 
 indexed-filter@^1.0.0:
   version "1.0.3"
@@ -1337,13 +1337,13 @@ parse-github-url@^1.0.2:
   integrity sha512-tfalY5/4SqGaV/GIGzWyHnFjlpTPTNpENR9Ea2lLldSJ8EWXMsvacWucqY3m3I4YPtas15IxTLQVQ5NSYXPrww==
 
 parse-json@^8.0.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-8.2.0.tgz#794a590dcf54588ec2282ce6065f15121fa348a0"
-  integrity sha512-eONBZy4hm2AgxjNFd8a4nyDJnzUAH0g34xSQAwWEVGCjdZ4ZL7dKZBfq267GWP/JaS9zW62Xs2FeAdDvpHHJGQ==
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-8.3.0.tgz#88a195a2157025139a2317a4f2f9252b61304ed5"
+  integrity sha512-ybiGyvspI+fAoRQbIPRddCcSTV9/LsJbf0e/S85VLowVGzRmokfneg2kwVW/KU5rOXrPSbF1qAKPMgNTqqROQQ==
   dependencies:
     "@babel/code-frame" "^7.26.2"
-    index-to-position "^1.0.0"
-    type-fest "^4.37.0"
+    index-to-position "^1.1.0"
+    type-fest "^4.39.1"
 
 parse-ms@^4.0.0:
   version "4.0.0"
@@ -1805,9 +1805,9 @@ remark-lint-no-table-indentation@^5.0.0:
     vfile-location "^5.0.0"
 
 remark-lint-no-undefined-references@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/remark-lint-no-undefined-references/-/remark-lint-no-undefined-references-5.0.1.tgz#69183bf73cc37bb8281dddb9283f77e8eaa9af46"
-  integrity sha512-j3qOk+jry1NPNbUmydGJpfbo1LeuZkvXOwr8ocxh1ymDzHf2GMCiToAiicDNaOuG85RkiIzLvnnCV5I7Mo5q8w==
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-undefined-references/-/remark-lint-no-undefined-references-5.0.2.tgz#8a244c250db92d3ee2664dbb7ad873c7df84d71d"
+  integrity sha512-5prkVb1tKwJwr5+kct/UjsLjvMdEDO7uClPeGfrxfAcN59+pWU8OUSYiqYmpSKWJPIdyxPRS8Oyf1HtaYvg8VQ==
   dependencies:
     "@types/mdast" "^4.0.0"
     collapse-white-space "^2.0.0"
@@ -1841,14 +1841,14 @@ remark-lint-no-unneeded-full-reference-link@^4.0.0:
     unist-util-visit-parents "^6.0.0"
 
 remark-lint-no-unused-definitions@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/remark-lint-no-unused-definitions/-/remark-lint-no-unused-definitions-4.0.1.tgz#0b2b5761c87761c4c9c72ec9c6f2e72b5deb3df4"
-  integrity sha512-AdMbaCeMpj32HvDUuyI+bQyu/405Nby/rgFW8XDpI7U7ufPhHl+jj9J4NgeW7Z8DrODGr0iFgPNt6JtNLskFdA==
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-unused-definitions/-/remark-lint-no-unused-definitions-4.0.2.tgz#920edd3b3b83b7b94f73308d95c93fc1e14283aa"
+  integrity sha512-KRzPmvfq6b3LSEcAQZobAn+5eDfPTle0dPyDEywgPSc3E7MIdRZQenL9UL8iIqHQWK4FvdUD0GX8FXGqu5EuCw==
   dependencies:
     "@types/mdast" "^4.0.0"
     devlop "^1.0.0"
     unified-lint-rule "^3.0.0"
-    unist-util-visit "^5.0.0"
+    unist-util-visit-parents "^6.0.0"
 
 remark-lint-ordered-list-marker-style@^4.0.0:
   version "4.0.1"
@@ -2228,7 +2228,7 @@ type-fest@^2.12.2:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.19.0.tgz#88068015bb33036a598b952e55e9311a60fd3a9b"
   integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
 
-type-fest@^4.37.0, type-fest@^4.6.0:
+type-fest@^4.39.1, type-fest@^4.6.0:
   version "4.39.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.39.1.tgz#7521f6944e279abaf79cf60cfbc4823f4858083e"
   integrity sha512-uW9qzd66uyHYxwyVBYiwS4Oi0qZyUqwjU+Oevr6ZogYiXt99EOYtwvzMSLw1c3lYo2HzJsep/NB23iEVEgjG/w==
