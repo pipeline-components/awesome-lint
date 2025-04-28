@@ -661,9 +661,9 @@ human-signals@^8.0.0:
   integrity sha512-eKCa6bwnJhvxj14kZk5NCPc6Hb6BdsU9DZcOnmQKSnO1VKrfV0zCvtttPZUsBvjmNDn8rpcJfpwSYnHBjc95MQ==
 
 ignore@^7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.3.tgz#397ef9315dfe0595671eefe8b633fec6943ab733"
-  integrity sha512-bAH5jbK/F3T3Jls4I0SO1hmPR0dKU0a7+SY6n1yzRtG54FLO8d6w/nxLFX2Nb7dBu6cCWXPaAME6cYqFUMmuCA==
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.4.tgz#a12c70d0f2607c5bf508fb65a40c75f037d7a078"
+  integrity sha512-gJzzk+PQNznz8ysRrC0aOkBNVRBDtE1n53IqyqEf3PXrYwomFs5q4pGMizBMJF+ykh03insJ27hB8gSrD2Hn8A==
 
 index-to-position@^1.1.0:
   version "1.1.0"
@@ -2229,9 +2229,9 @@ type-fest@^2.12.2:
   integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
 
 type-fest@^4.39.1, type-fest@^4.6.0:
-  version "4.40.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.40.0.tgz#62bc09caccb99a75e1ad6b9b4653e8805e5e1eee"
-  integrity sha512-ABHZ2/tS2JkvH1PEjxFDTUWC8dB5OsIGZP4IFLhR293GqT5Y5qB1WwL2kMPYhQW9DVgVD8Hd7I8gjwPIf5GFkw==
+  version "4.40.1"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.40.1.tgz#d78a09f08dd1081a434dd377967650cfd565401d"
+  integrity sha512-9YvLNnORDpI+vghLU/Nf+zSv0kL47KbVJ1o3sKgoTefl6i+zebxbiDQWoe/oWWqPhIgQdRZRT1KA9sCPL810SA==
 
 unicorn-magic@^0.1.0:
   version "0.1.0"
