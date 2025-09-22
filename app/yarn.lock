@@ -594,9 +594,9 @@ globby@^14.1.0:
     unicorn-magic "^0.3.0"
 
 got@^14.4.8:
-  version "14.4.8"
-  resolved "https://registry.yarnpkg.com/got/-/got-14.4.8.tgz#895ddbb9cc64f9ac678794610d39edd160964e94"
-  integrity sha512-vxwU4HuR0BIl+zcT1LYrgBjM+IJjNElOjCzs0aPgHorQyr/V6H6Y73Sn3r3FOlUffvWD+Q5jtRuGWaXkU8Jbhg==
+  version "14.4.9"
+  resolved "https://registry.yarnpkg.com/got/-/got-14.4.9.tgz#ab9c1d875f8e9d5fd09a7660e2f11333636a8eb5"
+  integrity sha512-Dbu075Jwm3QwNCIoCenqkqY8l2gd7e/TanuhMbzZIEsb1mpAneImSusKhZ+XdqqC3S91SDV/1SdWpGXKAlm8tA==
   dependencies:
     "@sindresorhus/is" "^7.0.1"
     "@szmarczak/http-timer" "^5.0.1"
@@ -1366,9 +1366,9 @@ pluralize@^8.0.0:
   integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
 
 pretty-ms@^9.2.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-9.2.0.tgz#e14c0aad6493b69ed63114442a84133d7e560ef0"
-  integrity sha512-4yf0QO/sllf/1zbZWYnvWw3NxCQwLXKzIj0G849LSufP15BXKM0rbD2Z3wVnkMfjdn/CB0Dpp444gYAACdsplg==
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-9.3.0.tgz#dd2524fcb3c326b4931b2272dfd1e1a8ed9a9f5a"
+  integrity sha512-gjVS5hOP+M3wMm5nmNOucbIrqudzs9v/57bWRHQWLYklXqoXKrVfYW2W9+glfGsqtPgpiz5WwyEEB+ksXIx3gQ==
   dependencies:
     parse-ms "^4.0.0"
 
