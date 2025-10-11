@@ -182,10 +182,10 @@ assert-valid-glob-opts@^1.0.0:
     glob-option-error "^1.0.0"
     validate-glob-opts "^1.0.0"
 
-awesome-lint@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/awesome-lint/-/awesome-lint-2.2.1.tgz#ecc6931822a6a58a644ce710ed4e016be3fcf15b"
-  integrity sha512-F57FeekwowDppn/8RvoNbolFGS66xXAwSNKDaL7G3YVGU4cEEt1mTVyXgoFhKYgxRg87L8ZbRvb8VP6gOo4oIQ==
+awesome-lint@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/awesome-lint/-/awesome-lint-2.2.2.tgz#afa4fd630c7581d263dd8455175b0d6740ad7eb1"
+  integrity sha512-0HmCw4rJ547fKiR74A7DsGXFpXM91zcwIbgqkxgXOR2yURUIPFqwhjuOVFsOg9JNGO48JmXH2xdy3lmZdldpIw==
   dependencies:
     arrify "^3.0.0"
     case "^1.6.3"
