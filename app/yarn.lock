@@ -2128,9 +2128,9 @@ run-parallel@^1.1.9:
     queue-microtask "^1.2.2"
 
 semver@^7.3.5:
-  version "7.7.3"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.3.tgz#4b5f4143d007633a8dc671cd0a6ef9147b8bb946"
-  integrity sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==
+  version "7.7.4"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.4.tgz#28464e36060e991fa7a11d0279d2d3f3b57a7e8a"
+  integrity sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==
 
 shebang-command@^2.0.0:
   version "2.0.0"
@@ -2261,9 +2261,9 @@ temp-dir@^3.0.0:
   integrity sha512-nHc6S/bwIilKHNRgK/3jlhDoIHcp45YgyiwcAk46Tr0LfEqGBVpmiAyuiuxeVE44m3mXnEeVhaipLOEWmH+Njw==
 
 tempy@^3.1.0:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/tempy/-/tempy-3.1.2.tgz#e7d9ac7a23d6281d68ff3f03cedc070c74c06728"
-  integrity sha512-pD3+21EbFZFBKDnVztX32wU6IBwkalOduWdx1OKvB5y6y1f2Xn8HU/U6o9EmlfdSyUYe9IybirmYPj/7rilA6Q==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/tempy/-/tempy-3.2.0.tgz#0061de359bdd17c13bd885169456496c74911bce"
+  integrity sha512-d79HhZya5Djd7am0q+W4RTsSU+D/aJzM+4Y4AGJGuGlgM2L6sx5ZvOYTmZjqPhrDrV6xJTtRSm1JCLj6V6LHLQ==
   dependencies:
     is-stream "^3.0.0"
     temp-dir "^3.0.0"
